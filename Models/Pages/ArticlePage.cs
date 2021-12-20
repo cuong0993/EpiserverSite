@@ -10,5 +10,6 @@ namespace EpiserverSite.Models.Pages
     public class ArticlePage : StandardPage
     {
 
+        public virtual string Constructor { get; set; }
     }
 }
